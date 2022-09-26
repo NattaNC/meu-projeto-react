@@ -1,10 +1,12 @@
 import './App.css';
 
 function App() {
+  const name = 'Nathan'
+  const newName = name.toUpperCase()
   return (
     <div className="App">
-      <h1>Ola react</h1>
-      <p>Meu primeiro App</p>
+      <h1>Olá, react</h1>
+      <p> Prazer em te conhecer {newName} </p>
     </div>
   );
 }
