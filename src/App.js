@@ -5,8 +5,7 @@ import Frase from './components/Frase';
 import List from './components/List';
 */
 import './App.css';
-import Evento from './components/Evento';
-import Form from './components/Form';
+import Condicinal from './components/Condicional';
 
 
 function App() {
@@ -30,9 +29,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Testando eventos</h1>
-      <Evento />
-      <Form />
+      <h1>Renderização </h1>
+      <Condicinal />
     </div>
   ) 
 }
