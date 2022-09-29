@@ -1,6 +1,6 @@
 import {useState} from 'react'
 
-function Condicinal () {
+function Condicional () {
 
     const [email, setEmail] = useState()
     const [userEmail, setUserEmail] = useState()
@@ -38,4 +38,4 @@ function Condicinal () {
     )
 }
 
-export default Condicinal
+export default Condicional
